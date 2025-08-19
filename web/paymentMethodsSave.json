@@ -4,7 +4,7 @@
   "section": "paymentMethodsSave",
   "content": {
     "head": {
-      "title": "Cliente | Teresópolis"
+      "title": "Cliente | [NAME]"
     },
     "mercadoPagoSdkVersion": {
       "mobile":  "v1",

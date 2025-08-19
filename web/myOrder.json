@@ -1,10 +1,10 @@
 {
-  "application": "teresopolis_web",
+  "application": "[SLUG]_web",
   "language": "pt-BR",
   "section": "myOrder",
   "content": {
     "head": {
-      "title": "Pedido | Teresópolis"
+      "title": "Pedido | [NAME]"
     },
     "labels": {
       "changeTrip": {
@@ -104,13 +104,13 @@
       "refundSummaryPaidValue": "Valor pago",
       "refundSummaryDescription": "Descri\u00e7\u00e3o",
       "orientations": "Orienta\u00e7\u00f5es",
-      "cancellationTimeMessage": "<p><strong>Você tem uma viagem em menos de {{ hours }}h ou que já passou</strong></p><p>Nesse caso, não conseguimos cancelar o seu pedido. Se você continuar com dúvidas, <br />Fale conosco: atendimento@viacaoteresopolis.com.br</p>",
+      "cancellationTimeMessage": "<p><strong>Você tem uma viagem em menos de {{ hours }}h ou que já passou</strong></p><p>Nesse caso, não conseguimos cancelar o seu pedido. Se você continuar com dúvidas, <br />Fale conosco: atendimento@[EMAIL].com.br</p>",
 			"disabledCancel": {
 				"expiredPeriod": {
-					"message": "<p><strong>Você tem uma viagem em menos de {{ hours }}h ou que já passou</strong></p><p>Nesse caso, não conseguimos cancelar o seu pedido. Se você continuar com dúvidas, <br />Fale conosco: atendimento@viacaoteresopolis.com.br</p>"
+					"message": "<p><strong>Você tem uma viagem em menos de {{ hours }}h ou que já passou</strong></p><p>Nesse caso, não conseguimos cancelar o seu pedido. Se você continuar com dúvidas, <br />Fale conosco: atendimento@[EMAIL].com.br</p>"
 				}
 			},
-      "cancellationConditionDescription": "<ul><li>Você pode cancelar até <b>{{ hours }} horas</b> antes da viagem.</li><li>Se você cancelar até <b>24 horas depois de comprar</b>, vai receber de volta todo o valor pago.</li><li>Se você cancelar <b>com mais de 24 horas, não recebe</b> de volta <b>parte da taxa</b> de serviço.</li><li>Se <b>imprimir</b> ou <b>alterar</b> as passagens no guichê da viação, você <b>não pode cancelar</b> pelo site</li><li>Se precisar, também dá pra alterar sua viagem, entre em contato com a viação para mais informações.</li><li>Qualquer dúvida que você tiver, fale conosco: atendimento@viacaoteresopolis.com.br</li>"
+      "cancellationConditionDescription": "<ul><li>Você pode cancelar até <b>{{ hours }} horas</b> antes da viagem.</li><li>Se você cancelar até <b>24 horas depois de comprar</b>, vai receber de volta todo o valor pago.</li><li>Se você cancelar <b>com mais de 24 horas, não recebe</b> de volta <b>parte da taxa</b> de serviço.</li><li>Se <b>imprimir</b> ou <b>alterar</b> as passagens no guichê da viação, você <b>não pode cancelar</b> pelo site</li><li>Se precisar, também dá pra alterar sua viagem, entre em contato com a viação para mais informações.</li><li>Qualquer dúvida que você tiver, fale conosco: atendimento@[EMAIL].com.br</li>"
     }
   }
 }

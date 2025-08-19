@@ -7,7 +7,7 @@
       "link": [
         {
           "crossorigin": null,
-          "href": "https://static.clickbus.com/live/whitelabel/teresopolis/favicon-16x16.png",
+          "href": "https://static.clickbus.com/live/whitelabel/[SLUG]/favicon-16x16.png",
           "hreflang": null,
           "media": null,
           "rel": "icon",
@@ -16,7 +16,7 @@
         },
         {
           "crossorigin": null,
-          "href": "https://static.clickbus.com/live/whitelabel/teresopolis/favicon-32x32.png",
+          "href": "https://static.clickbus.com/live/whitelabel/[SLUG]/favicon-32x32.png",
           "hreflang": null,
           "media": null,
           "rel": "icon",
@@ -26,18 +26,18 @@
       ],
       "script": [
         {
-          "content": "{ \"@context\": \"http://schema.org\", \"@type\": \"WebSite\", \"name\" : \"Teresópolis\", \"alternateName\" : \"Teresópolis BR\", \"url\": \"https://www.teresopolis.clickbus.com.br/\" }",
+          "content": "{ \"@context\": \"http://schema.org\", \"@type\": \"WebSite\", \"name\" : \"[NAME]\", \"alternateName\" : \"[NAME] BR\", \"url\": \"https://www.[SLUG].clickbus.com.br/\" }",
           "type": "application/ld+json"
         }
       ],
-      "title": "Login | Teresópolis"
+      "title": "Login | [NAME]"
     },
     "sideNav": {
       "url": "/",
       "logo": null,
-      "image": "https://static.clickbus.com/live/whitelabel/teresopolis/logo.svg",
+      "image": "https://static.clickbus.com/live/whitelabel/[SLUG]/logo.svg",
       "labels": null,
-      "title": "Teresópolis",
+      "title": "[NAME]",
       "width": "106",
       "height": "32"
     },

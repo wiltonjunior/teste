@@ -1,6 +1,156 @@
 {
-  "application": "planalto_web",
+  "application": "[SLUG]_web",
   "content": {
+    "head":  {
+      "title": "[NAME] | Site Oficial",
+      "meta": [
+        {
+          "content": "Viaje com a [NAME] com confian\u00e7a e excel\u00eancia. Viaje de \u00f4nibus pelo brasil. Acesse e saiba como!",
+          "type": "name",
+          "value": "description"
+        },
+        {
+          "content": "noindex,follow",
+          "type": "name",
+          "value": "robots"
+        },
+        {
+          "content": "[NAME] | Site Oficial",
+          "type": "property",
+          "value": "og:title"
+        },
+        {
+          "content": "https://[SLUG].com.br/",
+          "type": "property",
+          "value": "og:url"
+        },
+        {
+          "content": "https://static.clickbus.com/live/WL/social-wl.jpg",
+          "type": "property",
+          "value": "og:image"
+        },
+        {
+          "content": "[NAME]",
+          "type": "property",
+          "value": "og:site_name"
+        },
+        {
+          "content": "website",
+          "type": "property",
+          "value": "og:type"
+        },
+        {
+          "content": "Viaje com a [NAME] com confian\u00e7a e excel\u00eancia. Viaje de \u00f4nibus pelo brasil. Acesse e saiba como!",
+          "type": "property",
+          "value": "og:description"
+        },
+        {
+          "content": "summary",
+          "type": "name",
+          "value": "twitter:card"
+        },
+        {
+          "content": "https://[SLUG].com.br/",
+          "type": "name",
+          "value": "twitter:url"
+        },
+        {
+          "content": "[NAME] | Site Oficial",
+          "type": "name",
+          "value": "twitter:title"
+        },
+        {
+          "content": "https://static.clickbus.com/live/WL/social-wl.jpg",
+          "type": "name",
+          "value": "twitter:image"
+        },
+        {
+          "content": "Viaje com a [NAME] com confian\u00e7a e excel\u00eancia. Viaje de \u00f4nibus pelo brasil. Acesse e saiba como!",
+          "type": "name",
+          "value": "twitter:description"
+        },
+        {
+          "content": "207969074CBC86D8B57607056E5B13BD",
+          "type": "name",
+          "value": "msvalidate.01"
+        }
+      ],
+      "link": [
+        {
+          "crossorigin": null,
+          "sizes": "32x32",
+          "media": null,
+          "hreflang": null,
+          "href": "https://static.clickbus.com/live/whitelabel/[SLUG]/favicon-32x32.png",
+          "rel": "icon",
+          "type": null
+        },
+        {
+          "crossorigin": null,
+          "sizes": "16x16",
+          "media": null,
+          "hreflang": null,
+          "href": "https://static.clickbus.com/live/whitelabel/[SLUG]/favicon-16x16.png",
+          "rel": "icon",
+          "type": null
+        }
+      ],
+      "script": []
+    },
+    "header": {
+      "image": "https://static.clickbus.com/live/whitelabel/[SLUG]/logo.svg",
+      "labels": {
+        "phones": "(21) 3644-6600"
+      },
+      "logo": {
+        "alt": "[NAME]",
+        "image": "https://static.clickbus.com/live/whitelabel/[SLUG]/logo.svg",
+        "title": "[NAME]",
+        "url": "/",
+        "width": "176",
+        "height": "40"
+      },
+      "logoWhite": {
+        "alt": "[NAME]",
+        "image": "https://static.clickbus.com/live/whitelabel/[SLUG]/logo.svg",
+        "title": "[NAME]",
+        "url": "/",
+        "width": "176",
+        "height": "40"
+      },
+      "title": "Via\u00e7\u00e3o [NAME]",
+      "url": "/",
+      "menu": [
+        {
+          "alt": null,
+          "image": null,
+          "title": "Pedidos",
+          "url": "/meu-pedido"
+        }
+      ]
+    },
+    "searchBox": {
+      "title": "Compre sua passagem de ônibus!",
+      "leavingFrom": "Digite aqui sua origem",
+      "departureDate": "Data de partida",
+      "widgetOriginError": "Selecione sua origem",
+      "widgetDepartureDateError": "Selecione a data de partida",
+      "goingTo": "Digite aqui seu destino",
+      "widgetDestinationError": "Selecione o destino",
+      "returnDate": "Data de volta",
+      "widgetReturnDateError": "Selecione a data de volta",
+      "searchWidgetOneWayTrip": "Somente Ida",
+      "searchWidgetRoundTrip": "Ida e Volta",
+      "searchButton": "Encontre sua passagem",
+      "displayRadio": true
+    },
+    "labels": {
+      "menu": "Menu",
+      "phones": "(21) 3644-6600",
+      "hour": "Fala ônibus: 0800 886 1000. Contate-nos também por e-mail: atendimento@[EMAIL].com.br. Horário de atendimento: de segunda à sexta-feira das 8h às 17h.",
+      "suportLink": "/meu-pedido",
+      "suportTitle": "Pedidos"
+    },
     "notLoggedMenu": [
       {
         "alt": null,
@@ -52,9 +202,9 @@
     "sideNav": {
       "url": "/",
       "logo": null,
-      "image": "https://static.clickbus.com/live/whitelabel/planalto/logo.svg",
+      "image": "https://static.clickbus.com/live/whitelabel/[SLUG]/logo.svg",
       "labels": null,
-      "title": "Planalto",
+      "title": "[NAME]",
       "width": "176",
       "height": "40"
     },
@@ -89,7 +239,229 @@
         "title": "Termos de uso",
         "url": "/institucional/termos-de-uso"
       }
-    ]
+    ],
+    "footer": {
+      "logoVertical": {
+        "image": "https://static.clickbus.com/live/whitelabel/[SLUG]/logo.svg",
+        "alt": "[NAME]",
+        "width": "176",
+        "height": "40"
+      },
+      "logoHorizontal": {
+        "image": "https://static.clickbus.com/live/whitelabel/[SLUG]/logo.svg",
+        "alt": "[NAME]",
+        "width": "176",
+        "height": "40"
+      },
+      "business": [],
+      "categories": [],
+      "copyright": "© [NAME] - desenvolvido por ClickBus ",
+      "newCopyright": {
+        "text": "© [NAME] feito por ClickBus ",
+        "slogan": "",
+        "help": [
+          {
+            "alt": null,
+            "image": null,
+            "title": "Política de Privacidade",
+            "url": "/institucional/politica-de-privacidade"
+          },
+          {
+            "alt": null,
+            "image": null,
+            "title": "Política de Cookies",
+            "url": "/institucional/politica-de-cookies"
+          },
+          {
+            "alt": null,
+            "image": null,
+            "title": "Termos de Uso",
+            "url": "/institucional/termos-de-uso"
+          }
+        ]
+      },
+      "help": [
+        {
+          "alt": null,
+          "image": null,
+          "title": "Política de Privacidade",
+          "url": "/institucional/politica-de-privacidade"
+        },
+        {
+          "alt": null,
+          "image": null,
+          "title": "Política de Cookies",
+          "url": "/institucional/politica-de-cookies"
+        },
+        {
+          "alt": null,
+          "image": null,
+          "title": "Termos de Uso",
+          "url": "/institucional/termos-de-uso"
+        }
+      ],
+      "labels": {
+        "business": "",
+        "categories": "",
+        "copyright": "",
+        "customerService": "Central de atendimento",
+        "customerSupportHours": "Fala ônibus: 0800 886 1000. Contate-nos também por e-mail: atendimento@[EMAIL].com.br. Horário de atendimento: de segunda à sexta-feira das 8h às 17h.",
+        "help": "Institucional",
+        "institutional": "",
+        "paymentMethods": "",
+        "poweredBy": "",
+        "purchaseSecurity": "Compra 100% segura",
+        "securityCertificate": "",
+        "learnMoreInfo": "",
+        "phones": "(21) 3644-6600",
+        "phonesFooter": "(21) 3644-6600"
+      },
+      "institutional": [
+        "(21) 3644-6600",
+        "(21) 3644-6600"
+      ],
+      "left": null,
+      "paymentMethods": [
+        {
+          "alt": "Master Card",
+          "image": "https://static.clickbus.com/live/icones/mastercard_new.svg",
+          "title": "Master Card",
+          "url": null,
+          "size": {
+            "desktop": {
+              "width": "23",
+              "height": "18"
+            },
+            "mobile": {
+              "width": "29",
+              "height": "23"
+            }
+          }
+        },
+        {
+          "alt": "Visa",
+          "image": "https://static.clickbus.com/live/icones/visa_new.svg",
+          "title": "Visa",
+          "url": null,
+          "size": {
+            "desktop": {
+              "width": "34",
+              "height": "11"
+            },
+            "mobile": {
+              "width": "44",
+              "height": "14"
+            }
+          }
+        },
+        {
+          "alt": "Amex",
+          "image": "https://static.clickbus.com/live/icones/amex_new.svg",
+          "title": "Amex",
+          "url": null,
+          "size": {
+            "desktop": {
+              "width": "41",
+              "height": "15"
+            },
+            "mobile": {
+              "width": "52",
+              "height": "19"
+            }
+          }
+        },
+        {
+          "alt": "Elo",
+          "image": "https://static.clickbus.com/live/icones/elo_new.svg",
+          "title": "Elo",
+          "url": null,
+          "size": {
+            "desktop": {
+              "width": "25",
+              "height": "25"
+            },
+            "mobile": {
+              "width": "32",
+              "height": "32"
+            }
+          }
+        },
+        {
+          "alt": "Diners",
+          "image": "https://static.clickbus.com/live/icones/diners_new.svg",
+          "title": "Diners",
+          "url": null,
+          "size": {
+            "desktop": {
+              "width": "32",
+              "height": "23"
+            },
+            "mobile": {
+              "width": "41",
+              "height": "29"
+            }
+          }
+        },
+        {
+          "alt": "Hipercard",
+          "image": "https://static.clickbus.com/live/icones/hipercard_new.svg",
+          "title": "Hipercard",
+          "url": null,
+          "size": {
+            "desktop": {
+              "width": "41",
+              "height": "18"
+            },
+            "mobile": {
+              "width": "52",
+              "height": "23"
+            }
+          }
+        },
+        {
+          "url": null,
+          "alt": "PIX",
+          "image": "https://static.clickbus.com/live/icones/pix_new.svg",
+          "title": "PIX",
+          "size": {
+            "desktop": {
+              "width": "56",
+              "height": "20"
+            },
+            "mobile": {
+              "width": "56",
+              "height": "20"
+            }
+          }
+        }
+      ],
+      "right": null,
+      "securityCertificate": [],
+      "social": [],
+      "more": [],
+      "applications": [],
+      "callCenter": {
+        "title": "SAC",
+        "info": [
+          "(21) 3644-6600",
+          "",
+          "Horário de atendimento: ",
+          "Fala ônibus: 0800 886 1000. Contate-nos também por e-mail: atendimento@[EMAIL].com.br. Horário de atendimento: de segunda à sexta-feira das 8h às 17h."
+        ],
+        "support": {
+          "url": "/meu-pedido",
+          "label": "Acessar meu pedido"
+        }
+      },
+      "privacyCookiesPolicy": {
+        "enabled": true,
+        "title": "Podemos coletar cookies?",
+        "content": "Coletamos cookies para apresentar ofertas e condições personalizadas para você. Se clicar em aceitar, você concorda com isso. Você pode ler a <a target='_blank' rel='noopener noreferer' href='https://[SLUG].clickbus.com.br/institucional/politica-de-cookies'>Política de cookies</a> ou acessar nossa <a target='_blank' rel='noopener noreferer' href='https://[SLUG].clickbus.com.br/institucional/politica-de-privacidade'>Política de privacidade</a>",
+        "buttonTextProceed": "Aceitar",
+        "buttonTextNoProceed": "Não aceitar"
+      }
+    },
+    "aboutClickbus": null
   },
   "language": "pt-BR",
   "section": "default"

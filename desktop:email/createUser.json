@@ -1,9 +1,9 @@
 {
     "content": {
         "body": "<use-external-html>", 
-        "subject": "Confirme sua conta na Viação Teresopolis"
+        "subject": "Confirme sua conta na [NAME]"
     }, 
-    "application": "teresopolis_desktop_web", 
+    "application": "[SLUG]_desktop_web", 
     "section": "email", 
     "language": "pt-BR"
 }
