@@ -1,0 +1,77 @@
+{
+  "application": "br_desktop_web",
+  "language": "pt-BR",
+  "section": "login",
+  "content": {
+    "head": {
+      "link": [
+        {
+          "crossorigin": null,
+          "href": "https://static.clickbus.com/live/whitelabel/teresopolis/favicon-16x16.png",
+          "hreflang": null,
+          "media": null,
+          "rel": "icon",
+          "sizes": "16x16",
+          "type": null
+        },
+        {
+          "crossorigin": null,
+          "href": "https://static.clickbus.com/live/whitelabel/teresopolis/favicon-32x32.png",
+          "hreflang": null,
+          "media": null,
+          "rel": "icon",
+          "sizes": "32x32",
+          "type": null
+        }
+      ],
+      "script": [
+        {
+          "content": "{ \"@context\": \"http://schema.org\", \"@type\": \"WebSite\", \"name\" : \"Teresópolis\", \"alternateName\" : \"Teresópolis BR\", \"url\": \"https://www.teresopolis.clickbus.com.br/\" }",
+          "type": "application/ld+json"
+        }
+      ],
+      "title": "Login | Teresópolis"
+    },
+    "sideNav": {
+      "url": "/",
+      "logo": null,
+      "image": "https://static.clickbus.com/live/whitelabel/teresopolis/logo.svg",
+      "labels": null,
+      "title": "Teresópolis",
+      "width": "106",
+      "height": "32"
+    },
+    "menu": [
+      {
+        "alt": null,
+        "image": null,
+        "title": "Entrar",
+        "url": "/login"
+      },
+      {
+        "alt": null,
+        "image": null,
+        "title": "Pedidos",
+        "url": "/meu-pedido"
+      },
+      {
+        "alt": null,
+        "image": null,
+        "title": "Política de privacidade",
+        "url": "/institucional/politica-de-privacidade"
+      },
+      {
+        "alt": null,
+        "image": null,
+        "title": "Termos de uso",
+        "url": "/institucional/termos-de-uso"
+      },
+      {
+        "alt": null,
+        "image": null,
+        "title": "Termos de uso",
+        "url": "/institucional/termos-de-uso"
+      }
+    ]
+  }
+}

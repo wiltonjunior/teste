@@ -1,0 +1,10 @@
+{
+	"application": "br_web",
+	"language": "pt-BR",
+	"section": "paymentMethodsList",
+	"content": {
+		"head": {
+			"title": "Métodos de Pagamento | Teresópolis"
+		}
+	}
+}  

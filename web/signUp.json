@@ -1,0 +1,10 @@
+{
+    "application": "br_web",
+    "language": "pt-BR",
+    "section": "signUp",
+    "content": {
+        "head": {
+            "title": "Cadastro | Teresópolis"
+        }
+    }
+}

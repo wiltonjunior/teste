@@ -1,0 +1,18 @@
+{
+  "application": "br_web",
+  "language": "pt-BR",
+  "section": "paymentMethodsSave",
+  "content": {
+    "head": {
+      "title": "Cliente | Teresópolis"
+    },
+    "mercadoPagoSdkVersion": {
+      "mobile":  "v1",
+      "desktop": "v1"
+    },
+    "tunaEnabled": {
+      "mobile":  true,
+      "desktop": true
+    }
+  }
+}

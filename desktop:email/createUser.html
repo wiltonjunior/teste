@@ -1,0 +1,314 @@
+<#setting locale = "pt_BR">
+<#assign activeFlux = user?has_content && user.activeAccount?has_content && user.activeAccount>
+<#assign isActiveFlux = activeFlux || activeFlux?string == "true">
+
+<#assign link = "www.viacaoteresopolis.com.br/">
+<#assign name = "Viação Planalto">
+<#assign slug = "planalto">
+<#assign primaryColor = "#b71001">
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<title>Confirme seu Login</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<style type="text/css">
+				/* CLIENT-SPECIFIC STYLES */
+				body, table, td, a{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+				table, td{mso-table-lspace: 0pt; mso-table-rspace: 0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+				img{-ms-interpolation-mode: bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+				/* RESET STYLES */
+				img{border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none;}
+				table{border-collapse: collapse !important;}
+				body{height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important;}
+
+				.active-account-info {
+						padding: 0 20px 20px 20px; 
+						font-family: 'Noto Sans', sans-serif; 
+						font-weight: 400; 
+						font-size: 16px; 
+						color: #1A1A1A;
+				}
+
+				.active-account-width {
+						max-width: 822px;
+				}
+
+				.normal-width {
+						max-width: 600px; 
+				}
+
+				.active-account-weight {
+						font-weight: 400;
+				}
+
+				.normal-weight {
+						font-weight: 700;
+				}
+
+				/* iOS BLUE LINKS */
+				a[x-apple-data-detectors] {
+						color: inherit !important;
+						text-decoration: none !important;
+						font-size: inherit !important;
+						font-family: inherit !important;
+						font-weight: inherit !important;
+						line-height: inherit !important;
+				}
+
+				/* MOBILE STYLES */
+				@media screen and (max-width: 525px) {
+
+						.master-table {
+								width: 95% !important;
+								margin-left: 2.5% !important;
+						}
+
+						/* ALLOWS FOR FLUID TABLES */
+						.wrapper {
+						width: 95% !important;
+						max-width: 100% !important;
+						margin-left: 2.5% !important;
+						}
+
+						/* ADJUSTS LAYOUT OF LOGO IMAGE */
+						.logo img {
+						margin: 0 auto !important;
+						}
+
+						/* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+						.mobile-hide {
+						display: none !important;
+						}
+
+						.img-max {
+						max-width: 100% !important;
+						width: 100% !important;
+						height: auto !important;
+						}
+
+						/* FULL-WIDTH TABLES */
+						.responsive-table {
+						width: 100% !important;
+						}
+
+						/* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
+						.padding {
+						padding: 10px 5% 15px 5% !important;
+						}
+
+						.padding-meta {
+						padding: 30px 5% 0px 5% !important;
+						text-align: center;
+						}
+
+						.padding-copy {
+								padding: 10px 5% 10px 5% !important;
+						text-align: center;
+						}
+
+						.no-padding {
+						padding: 0 !important;
+						}
+
+						.section-padding {
+						padding: 50px 15px 50px 15px !important;
+						}
+
+						/* ADJUST BUTTONS ON MOBILE */
+						.mobile-button-container {
+								margin: 0 auto;
+								width: 100% !important;
+						}
+
+						.mobile-button {
+								padding: 15px !important;
+								border: 0 !important;
+								font-size: 20px !important;
+								display: block !important;
+						}
+
+						.active-account-info {
+								padding: 0 0 20px 0;
+								font-family: 'Noto Sans', sans-serif; 
+								font-weight: 400; 
+								font-size: 16px; 
+								color: #1A1A1A;
+						}
+				}
+
+				/* ANDROID CENTER FIX */
+				div[style*="margin: 16px 0;"] { margin: 0 !important; }
+		</style>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">	
+	</head>
+
+	<body style="margin: 0 !important; padding: 0 !important;background-color: #f9f9f9;">
+		<!-- HIDDEN PREHEADER TEXT -->
+		<div style="display: none; font-size: 1px; color: #fefefe; line-height: 1px; font-family: Helvetica, Arial, sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
+				Olá, recebemos uma solicitação de redefinição em nosso site. Por favor, veja nesse e-mail como proceder à sua solicitação...
+		</div>
+
+		<!-- HEADER -->
+		<table border="0" class="master-table ${isActiveFlux?then('active-account-width', 'normal-width')}" align="center" cellpadding="0" cellspacing="0" width="100%;" style="background-color: #f9f9f9; margin-top: 20px; margin-bottom: 20px;">
+			<tr>
+					<td bgcolor="#f9f9f9" align="center">
+							<!--[if (gte mso 9)|(IE)]>
+							<table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+							<tr>
+							<td align="center" valign="top" width="600">
+							<![endif]-->
+							<table border="0" cellpadding="0" cellspacing="0" width="100%"  class="wrapper ${isActiveFlux?then('active-account-width', 'normal-width')}">
+									<tr>
+											<td align="center" valign="top" style="padding: 15px 0; padding-bottom: 20px;" class="logo">
+													<a href="${link} target="_blank">
+															<img src="https://static.clickbus.com/live/whitelabel/${slug}/logo.png" alt="Logo ${name}" width="114" height="34" border="0" />
+													</a>
+											</td>
+									</tr>
+							</table>
+							<!--[if (gte mso 9)|(IE)]>
+							</td>
+							</tr>
+							</table>
+							<![endif]-->
+					</td>
+			</tr>
+
+			<tr>
+				<td align="center" valign="middle" bgcolor="#ffffff" style="padding: 32px; border-radius: 8px; box-shadow: rgba(42, 43, 45, 0.07) 0px 4px 16px;">
+					<!--[if (gte mso 9)|(IE)]>
+					<table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+					<tr>
+					<td align="center" valign="top" width="600">
+					<![endif]-->
+					<table border="0" cellpadding="0" cellspacing="0" width="100%" class="responsive-table ${isActiveFlux?then('active-account-width', 'normal-width')}">
+						<tr>
+							<td>
+								<!-- COPY -->
+								<table width="100%" border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<td align="center" style="padding: 15px 0;" class="padding-copy">
+											<img src="https://static.clickbus.com/live/whitelabel/common/transactional/createUser.png" alt="Ícone de confirmar login" width="75" height="75">
+										</td>
+									</tr>
+
+									<tr>
+										<#if isActiveFlux == true>
+											<td align="center" style="font-family: 'Noto Sans', sans-serif;font-size: 32px; font-weight: bold; color: #383838; padding: 20px; padding-top: 0;">
+												Gerencie viagens com sua conta
+											</td>
+										<#else>
+											<td align="center" style="font-family: 'Noto Sans', sans-serif;font-size: 22px; font-weight: bold; color: #383838; padding: 20px; padding-top: 0;">
+												Você quer ativar sua conta?
+											</td>
+										</#if>
+									</tr>
+
+									<tr>
+										<#if isActiveFlux == true>
+											<td align="center" class="active-account-info">
+												<div style="max-width: 391px; width: 100%; margin: 0 auto; text-align: left;">
+													<p style="margin: 0; line-height: 160%;">
+															Confira todas as vantagens:<br/><br/>
+																	• Acesse o seu histórico de pedidos<br/>
+																	• Altere as passagens mais fácil<br/>
+																	• Compre muito mais rápido<br/><br/>
+															Além disso, ganhe cashback nas próximas viagens sem pagar nada a mais.
+													</p>
+												</div>
+											</td>
+										<#else>
+											<td align="center" style="font-family: 'Noto Sans', sans-serif; font-weight: 300; font-size: 14px; color: #1A1A1A; line-height: 20px; padding: 0 20px; padding-bottom: 20px;" >
+												<strong>Olá, ${user.name?keep_before(" ")}.</strong>
+												<p>Para ativar sua conta na ${name} confirme clicando em <strong>Ativar conta</strong>.</p>
+											</td>
+										</#if>
+									</tr>
+
+									<tr>
+										<#if isActiveFlux == true>
+											<td align="center" style="padding: 20px; padding-top: 10px; padding-bottom: 30px;">
+												<a href="${user.createUserPath}" style="font-family: 'Noto Sans', sans-serif; font-size: 14px; color: #ffffff; background-color: ${primaryColor}; border-radius: 999px; text-decoration: none; padding: 14px 32px; display: inline-block; max-width: 264px;" class="mobile-button" title="Ativar conta">
+													Ativar conta grátis
+												</a>
+											</td>
+										<#else>
+											<td align="center" style="padding: 20px; padding-top: 10px; padding-bottom: 30px;">
+												<a href="${user.createUserPath}" style="font-family: 'Noto Sans', sans-serif; font-size: 14px; color: #ffffff; background-color: ${primaryColor}; border-radius: 999px; text-decoration: none; padding: 14px 32px; display: inline-block; max-width: 264px;" class="mobile-button" title="Ativar conta">
+													Ativar conta
+												</a>
+											</td>
+										</#if>
+									</tr>
+
+									<tr>
+										<#if isActiveFlux == true>
+											<td align="center" style="font-family: 'Noto Sans', sans-serif; font-weight: 300; font-size: 14px; color: #1A1A1A; line-height: 20px; padding: 0 20px; padding-bottom: 20px;" >
+												<p>Ativação válida até <strong>24 horas</strong> depois de receber esse e-mail.</p>
+											</td>
+										<#else>
+											<td align="center" style="font-family: 'Noto Sans', sans-serif; font-weight: 300; font-size: 14px; color: #1A1A1A; line-height: 20px; padding: 0 20px; padding-bottom: 20px;" >
+												<p>Esse link só vale por 24 horas depois que você receber o e-mail.</p>
+												<p>Caso não tenha sido você ou tenha mudado de ideia, pode desconsiderar esse e-mail.</p>
+											</td>
+										</#if>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+					<!--[if (gte mso 9)|(IE)]>
+					</td>
+					</tr>
+					</table>
+					<![endif]-->
+				</td>
+			</tr>
+
+			<tr>
+				<td height="24"></td>
+			</tr>
+
+			<!-- footer -->
+			<tr>
+				<td bgcolor="#f9f9f9" align="center">
+					<!--[if (gte mso 9)|(IE)]>
+					<table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+					<tr>
+					<td align="center" valign="top" width="600">
+					<![endif]-->
+
+					<table border="0" cellpadding="0" cellspacing="0" width="100%" class="wrapper ${isActiveFlux?then('active-account-width', 'normal-width')}">
+						<tr>
+							<td align="center" valign="top" style="padding: 20px 0 24px 0; color: #383838; font-size: 13px;font-family: 'Noto Sans', sans-serif; font-weight: 400; ">
+								Copyright © 2025 ClickBus
+							</td>
+						</tr>
+					</table>
+
+					<!--[if (gte mso 9)|(IE)]>
+					</td>
+					</tr>
+					</table>
+					<![endif]-->
+				</td>
+			</tr>
+
+
+								</table>
+								<!--[if (gte mso 9)|(IE)]>
+								</td>
+								</tr>
+								</table>
+								<![endif]-->
+						</td>
+				</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "application": "br_web",
+  "section": "myAccount",
+  "language": "pt-BR",
+  "content": {
+    "head": {
+      "title": "Perfil | Teresópolis"
+    }
+  }
+}

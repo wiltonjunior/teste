@@ -1,0 +1,39 @@
+{
+  "application": "teresopolis_web",
+  "language": "pt-BR",
+  "section": "cliente",
+  "content": {
+    "head": {
+      "title": "Cliente | Teresópolis",
+      "link": [
+        {
+          "crossOrigin": null,
+          "href": "https://teresopolis.clickbus.com.br/cliente",
+          "hrefLang": null,
+          "media": null,
+          "rel": "canonical",
+          "sizes": null,
+          "type": null
+        },
+        {
+          "crossOrigin": null,
+          "sizes": "32x32",
+          "media": null,
+          "hreflang": null,
+          "href": "https://static.clickbus.com/live/whitelabel/teresopolis/favicon-32x32.png",
+          "rel": "icon",
+          "type": null
+        },
+        {
+          "crossOrigin": null,
+          "sizes": "16x16",
+          "media": null,
+          "hreflang": null,
+          "href": "https://static.clickbus.com/live/whitelabel/teresopolis/favicon-16x16.png",
+          "rel": "icon",
+          "type": null
+        }
+      ]
+    }
+  }
+}

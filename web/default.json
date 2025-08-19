@@ -1,0 +1,96 @@
+{
+  "application": "planalto_web",
+  "content": {
+    "notLoggedMenu": [
+      {
+        "alt": null,
+        "image": null,
+        "title": "Pedidos",
+        "url": "/meu-pedido"
+      },
+      {
+        "alt": null,
+        "image": null,
+        "title": "Cadastre-se",
+        "url": "/cadastro",
+        "icon": "userAdd"
+      },
+      {
+        "alt": null,
+        "image": null,
+        "title": "Entrar",
+        "url": "/login",
+        "icon": "login"
+      }
+    ],
+    "loggedMenu": [
+      {
+        "alt": null,
+        "image": null,
+        "title": "Perfil",
+        "url": "/cliente/minha-conta",
+        "icon": "user",
+        "disableNextLink": true
+      },
+      {
+        "alt": null,
+        "image": null,
+        "title": "Pedidos",
+        "url": "/cliente/meus-pedidos",
+        "icon": "ticket",
+        "disableNextLink": true
+      },
+      {
+        "alt": null,
+        "image": null,
+        "title": "Cartões salvos",
+        "url": "/cliente/meus-metodos-de-pagamento",
+        "icon": "creditCard",
+        "disableNextLink": true
+      }
+    ],
+    "sideNav": {
+      "url": "/",
+      "logo": null,
+      "image": "https://static.clickbus.com/live/whitelabel/planalto/logo.svg",
+      "labels": null,
+      "title": "Planalto",
+      "width": "176",
+      "height": "40"
+    },
+    "menu": [
+      {
+        "alt": null,
+        "image": null,
+        "title": "Entrar",
+        "url": "/login"
+      },
+      {
+        "alt": null,
+        "image": null,
+        "title": "Pedidos",
+        "url": "/meu-pedido"
+      },
+      {
+        "alt": null,
+        "image": null,
+        "title": "Política de privacidade",
+        "url": "/institucional/politica-de-privacidade"
+      },
+      {
+        "alt": null,
+        "image": null,
+        "title": "Política de Cookies",
+        "url": "/institucional/politica-de-cookies"
+      },
+      {
+        "alt": null,
+        "image": null,
+        "title": "Termos de uso",
+        "url": "/institucional/termos-de-uso"
+      }
+    ]
+  },
+  "language": "pt-BR",
+  "section": "default"
+}
